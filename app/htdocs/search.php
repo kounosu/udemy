@@ -2,6 +2,8 @@
 declare(strict_types=1);
 
 require_once(dirname(__DIR__)."/config/config.php");
+require_once(dirname(__DIR__)."/library/validate.php");
+
 //データベース接続
 $pdo = new PDO(
   "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8", DB_USER, DB_PASS

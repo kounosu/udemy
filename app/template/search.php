@@ -3,11 +3,7 @@
 <?php require_once(dirname(__DIR__)."/template/header.php")?>
 
 <div class="clearfix">
-    <div id="menu">
-        <h3>メニュー</h3>
-        <div class="sub_menu">社員検索</div>
-        <div class="sub_menu"><a href="input.php">社員登録</a></div>
-    </div>
+<?php require_once(dirname(__DIR__)."/template/menu.php")?>
 
     <div id="main">
         <h3 id="title">社員検索画面</h3>
