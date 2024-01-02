@@ -1,4 +1,4 @@
 <?php
-    echo "Hello World";
-    
+$value = 2 * 3;
+echo $value;
 ?>
