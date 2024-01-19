@@ -10,6 +10,7 @@ define("GENDER_LISTS", [
     "男性",
     "女性",
 ]);
+
 define("ORGANIZATION_LISTS",  [
     "営業部",
     "人事部",
@@ -20,6 +21,7 @@ define("ORGANIZATION_LISTS",  [
     "システム開発4部",
     "システム開発5部",
 ]);
+
 define("POST_LISTS", [
     "部長",
     "次長",
